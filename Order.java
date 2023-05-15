@@ -35,7 +35,7 @@ class Order {
         System.out.println("Ma HD: " + orderID);
         System.out.println("Ngay lap hoa don: " + orderDate);
 
-        System.out.println("STT   |   MA SP   |   Mo ta   |   Don gia   |   So luong   |   Thanh tien");
+        System.out.println("STT   |   MA SP   |   Mo ta    |   Don gia   |   So luong   |   Thanh tien");
         System.out.println("--------------------------------------------------------------------------");
         for (int i = 0; i < lineItems.size(); i++) {
             OrderDetail orderDetail = lineItems.get(i);
