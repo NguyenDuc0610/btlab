@@ -2,7 +2,7 @@ import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
-        Product product1 = new Product("Nước tương", 8000);
+        Product product1 = new Product("Nướctương", 8000);
         Product product2 = new Product("Gạo", 18000);
         Product product3 = new Product("Đường", 10000);
         Product product4 = new Product("Gạo", 18000);
